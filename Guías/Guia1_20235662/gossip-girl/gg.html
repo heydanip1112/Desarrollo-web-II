@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Gossip Girl</title>
+</head>
+<body class="relative flex flex-col min-h-screen bg-gray-100">
+    <!-- Información general -->
+    <section id="info" 
+        class="relative z-10 flex items-center justify-center bg-[url('../images/NYC.jpg')] bg-cover bg-center bg-no-repeat min-h-screen w-full">
+        
+        <!-- Overlay para mejorar la visibilidad del texto -->
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+        <!-- Contenido sobre el fondo -->
+        <div class="relative max-w-6xl text-center px-10 py-20 text-white">
+          <h3 class="mb-8 md:text-7xl font-title"> 
+            <span class="font-bold">Gossip</span><span class="font-thin"> Girl</span>
+          </h3>
+          <p class="max-w-3xl mx-auto leading-9 text-center mb-10 text-2xl font-extralight leading-9 sm:block hidden mb-4"> 
+            Gossip Girl es una serie de televisión estadounidense que trata sobre la vida de los adolescentes ricos y privilegiados que viven en el Upper East Side de Manhattan. La serie se centra en sus relaciones amorosas, familiares, económicas, y en los dramas que viven en su transición a la madurez. 
+            La historia se narra a través de un blog anónimo, llamado "Gossip Girl", que revela secretos, rumores y chismes sobre los protagonistas. 
+          </p>
+          <!-- Contenedor de Botones -->
+          <div class="flex flex-col justify-center w-full space-y-6 text-xl md:flex-row md:space-y-0 md:space-x-4">
+            <!-- Botón 1 -->
+            <a href="#" 
+               class="p-4 px-8 rounded-full shadow-lg bg-black bg-opacity-100 text-yellow-500 duration-200 hover:bg-yellow-500 hover:text-white">
+               Reparto
+            </a>
+            <!-- Botón 2 -->
+            <a href="#" 
+               class="p-4 px-8 rounded-full shadow-lg bg-black bg-opacity-100 text-yellow-500 duration-200 hover:bg-yellow-500 hover:text-white">
+               Temporadas
+            </a>
+          </div>
+        </div>
+    </section>
+
+    <!-- Personajes -->
+    <section id="personajes" class="relative z-0 flex justify-center flex-wrap px-10 py-20 space-y-6 md:space-y-6 md:space-x-6 bg-gray-800">
+      <h1 class="text-white font-thin text-7xl mb-16">Personajes</h1>
+        <!-- Tarjetas uniformes -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Card Template -->
+          <div class="bg-gray-800 rounded-xl border-8 border-slate-600 text-white flex flex-col w-full min-h-[400px]">
+            <div class="p-8">
+              <div class="text-2xl text-center">Serena vander Woodsen</div>
+              <img src="../images/blake-lively.jpeg" alt="Blake Lively" class="mt-6 h-64 w-64 object-cover rounded-lg mx-auto">
+            </div>
+            <div class="border-t border-slate-600"></div>
+            <div class="p-4 bg-gray-800 h-full text-sm text-center overflow-auto">
+              <p class="font-extralight leading-9 sm:block hidden mb-4">
+                Serena van der Woodsen es un personaje de la serie de novelas y la serie de televisión Gossip Girl. Se caracteriza por ser una adolescente popular y atractiva, con una belleza natural y un estilo de vida lujoso.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-gray-800 rounded-xl border-8 border-yellow-500 text-white flex flex-col w-full min-h-[400px]">
+            <div class="p-8">
+              <div class="text-2xl text-center">Blair Waldorf</div>
+              <img src="../images/blair.jpeg" alt="Leighton Meester" class="mt-6 h-64 w-64 object-cover rounded-lg mx-auto">
+            </div>
+            <div class="border-t border-slate-600"></div>
+            <div class="p-4 bg-gray-800 h-full text-sm text-center overflow-auto">
+              <p class="font-extralight leading-9 sm:block hidden mb-4">
+                Blair Waldorf es un personaje de la serie Gossip Girl que se caracteriza por ser una socialité de Nueva York con un estilo clásico y preppy. Es una chica inteligente, manipuladora y decidida que sabe lo que quiere.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-gray-800 rounded-xl border-8 border-slate-600 text-white flex flex-col w-full min-h-[400px]">
+            <div class="p-8">
+              <div class="text-2xl text-center">Chuck Bass</div>
+              <img src="../images/chuck.jpeg" alt="Ed Westwick" class="mt-6 h-64 w-64 object-cover rounded-lg mx-auto">
+            </div>
+            <div class="border-t border-slate-600"></div>
+            <div class="p-4 bg-gray-800 h-full text-sm text-center overflow-auto">
+              <p class="font-extralight leading-9 sm:block hidden mb-4">
+                Chuck Bass es un personaje de la serie de televisión Gossip Girl. Se le describe como un joven moreno de ojos marrones profundos con un sentido de la moda extravagante.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-gray-800 rounded-xl border-8 border-yellow-500 text-white flex flex-col w-full min-h-[400px]">
+            <div class="p-8">
+              <div class="text-2xl text-center">Nate Archibald</div>
+              <img src="../images/nate.jpeg" alt="Chace Crawford" class="mt-6 h-64 w-64 object-cover rounded-lg mx-auto">
+            </div>
+            <div class="border-t border-slate-600"></div>
+            <div class="p-4 bg-gray-800 h-full text-sm text-center overflow-auto">
+              <p class="font-extralight leading-9 sm:block hidden mb-4">
+                Nate Archibald es un personaje de la serie de libros Gossip Girl y de la serie de televisión del mismo nombre. También es el nombre de un exjugador y entrenador de baloncesto estadounidense.
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="temporadas" class="bg-black flex flex-col text-white bg-section-background py-12 px-12 md:space-x-12 space-y-12 items-center">
+      <h1 class="text-white font-thin text-7xl mt-8 mb-4">Temporadas</h1>
+      <div class="flex items-center justify-center min-h-screen px-4 py-10">
+        <div class="flex flex-col space-y-6 w-full max-w-5xl">
+          <!-- Temporada 1 -->
+          <div class="bg-black p-6 rounded-lg border border-gray-700 hover:border-yellow-500 flex items-center">
+            <img src="../images/t1.jpg" alt="" class="w-1/3 h-40 object-cover rounded-lg mr-6">
+            <div>
+              <h2 class="text-2xl font-medium mb-4 text-white hover:text-yellow-500">Temporada 1</h2>
+              <p class="text-white font-extralight leading-9 sm:block hidden mb-4">La primera temporada de la serie Gossip Girl cuenta la historia de Serena van der Woodsen, 
+                quien regresa al Upper East Side de Manhattan después de una misteriosa desaparición. 
+                La serie está narrada por la bloguera anónima Gossip Girl, quien espía a los jóvenes ricos de la zona.</p>
+            </div>
+          </div>
+          <!-- Temporada 2 -->
+          <div class="bg-black p-6 rounded-lg border border-gray-700 hover:border-yellow-500 flex items-center">
+            <img src="../images/t2.jpg" alt="" class="w-1/3 h-40 object-cover rounded-lg mr-6">
+            <div>
+              <h2 class="text-2xl font-medium mb-4 text-white hover:text-yellow-500">Temporada 2</h2>
+              <p class="text-white font-extralight leading-9 sm:block hidden mb-4">La segunda temporada de Gossip Girl nos sumerge aún más en el drama y los secretos 
+                del Upper East Side. Tras los eventos de la primera temporada, las vidas de los adolescentes 
+                más privilegiados de Manhattan continúan dando giros inesperados.</p>
+            </div>
+          </div>
+          <!-- Temporada 3 -->
+          <div class="bg-black p-6 rounded-lg border border-gray-700  hover:border-yellow-500 flex items-center">
+            <img src="../images/t3.jpg" alt="" class="w-1/3 h-40 object-cover rounded-lg mr-6">
+            <div>
+              <h2 class="text-2xl font-medium mb-4 text-white hover:text-yellow-500">Temporada 3</h2>
+              <p class="text-white font-extralight leading-9 sm:block hidden mb-4">La tercera temporada marca un punto de inflexión en la serie, ya que nuestros 
+                personajes favoritos abandonan el instituto y se adentran en el mundo universitario. 
+                Este cambio de escenario trae consigo nuevos desafíos, romances y, por supuesto, más drama.</p>
+            </div>
+          </div>
+          <!-- Temporada 4 -->
+          <div class="bg-black p-6 rounded-lg border border-gray-700  hover:border-yellow-500 flex items-center">
+            <img src="../images/t4.jpg" alt="" class="w-1/3 h-40 object-cover rounded-lg mr-6">
+            <div>
+              <h2 class="text-2xl font-medium mb-4 text-white hover:text-yellow-500">Temporada 4</h2>
+              <p class="text-white font-extralight leading-9 sm:block hidden mb-4">Esta temporada nos lleva a un viaje lleno de intrigas, nuevos personajes y grandes 
+                revelaciones. Con nuestros protagonistas ya en la universidad, la vida en el Upper 
+                East Side se vuelve aún más compleja.</p>
+            </div>
+          </div>
+          <!-- Temporada 5 -->
+          <div class="bg-black p-6 rounded-lg border border-gray-700 hover:border-yellow-500 flex items-center">
+            <img src="../images/t5.jpg" alt="" class="w-1/3 h-40 object-cover rounded-lg mr-6">
+            <div>
+              <h2 class="text-2xl font-medium mb-4 text-white hover:text-yellow-500">Temporada 5</h2>
+              <p class="text-white font-extralight leading-9 sm:block hidden mb-4">La quinta temporada de Gossip Girl nos lleva a un punto de inflexión en las vidas 
+                de nuestros personajes favoritos. Serena se aventura en Hollywood, dejando atrás el Upper East Side 
+                para perseguir sus sueños en la industria del cine.</p>
+            </div>
+          </div>
+          <!-- Temporada 6 -->
+          <div class="bg-black p-6 rounded-lg border border-gray-700 hover:border-yellow-500 flex items-center">
+            <img src="../images/t6.jpg" alt="" class="w-1/3 h-40 object-cover rounded-lg mr-6">
+            <div>
+              <h2 class="text-2xl font-medium mb-4 text-white hover:text-yellow-500">Temporada 6</h2>
+              <p class="text-white font-extralight leading-9 sm:block hidden mb-4">La sexta y última temporada de Gossip Girl nos lleva a un desenlace lleno de sorpresas. 
+                La desaparición de Serena sacude al Upper East Side, mientras sus amigos se esfuerzan por encontrarla. 
+                Finalmente, se revela la identidad de Gossip Girl, poniendo fin a años de misterio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="flex flex-col-reverse md:flex-row min-h-screen bg-gray-800">
+        <!-- Contenedor de texto -->
+        <div class="flex flex-col text-white md:p-4 md:w-1/2 mx-12 md:m-12 md:mx-0 md:ml-12 items-start justify-center">
+          <h1 class="text-white font-thin text-7xl mb-8 sm:mt-16 sm:mb-4 md:mb-4">Reseñas</h1>  
+          <p class="font-extralight text-xl leading-9 mt-16 sm:block hidden mb-4">
+            Es una de las mejores series que he visto, 
+            te sumerge en el mundo de la elite de Manhattan, en donde los personajes principales son expuestos constantemente 
+            por el sitio web de chica indiscreta.
+            Y aunque la serie va dirigida a un público adolescente, no se puede negar que también cautivó a las 
+            personas que están fuera de ese grupo. Por ese mismo hecho y todo el impacto e influencia que generó la serie, 
+            en cuanto al mundo de la moda, de las tendencias, etc... Convierte a la serie en un icono y en un clásico, 
+            no sólo por mostrarnos ese glamuroso mundo de la elite, sino también por la variedad de temas tratados en 
+            cada capítulo, como las dinámicas de poder entre los personajes, la manipulación, el acoso, el amor, la 
+            perseverancia, etc... Cada capítulo trae una buena historia, un buen drama y una buena reflexión.      
+            <br>-mitsuki kobayashi
+          </p>
+          <a href="#" 
+               class="p-4 px-8 mt-4 rounded-full shadow-lg bg-black bg-opacity-100 text-yellow-500 duration-200 hover:bg-yellow-500 hover:text-white">
+               Ver más
+            </a>
+        </div>
+        <!-- Contenedor de imagen -->
+        <div cclass="w-full md:w-1/2">
+          <img src="../images/bgimage.jpg" alt="" class="w-full h-auto object-cover">
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

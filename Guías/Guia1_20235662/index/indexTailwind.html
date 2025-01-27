@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Index</title>
+</head>
+<body lass="relative flex flex-col min-h-screen bg-gray-100">
+    <header class="bg-cyan-800 text-white text-center py-8">
+        <h1 class="text-xl font-bold">Desarrollo Web II</h1>
+        <h2 class="text-sm mt-2">Profesor: Ing. Guillermo Calderón</h2>
+    </header>
+    
+    <section
+        id="dani"
+        class="relative bg-cover bg-center bg-no-repeat flex items-center justify-center"
+        style="background-image: url('../images/header-index.jpg'); height: 100vh;"
+    >
+        <!-- Overlay para mejorar la visibilidad del texto -->
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+        <!-- Contenido sobre el fondo -->
+        <div class="relative max-w-6xl text-center px-10 py-20 text-white">
+            <h3 class="mb-8 md:text-7xl font-title">
+                <span class="font-bold">Daniela Pineda</span>
+            </h3>
+            <p class="max-w-3xl mx-auto leading-9 text-2xl font-extralight sm:block hidden">
+                Ingeniera de Software y Negocios Digitales
+            </p>
+            <p class="max-w-3xl mx-auto leading-9 text-2xl font-extralight sm:block hidden">
+                Tercer año
+            </p>
+        </div>
+    </section>
+    <section class="relative z-0 flex justify-center flex-wrap px-10 py-20 space-y-6 md:space-y-6 md:space-x-6 bg-cyan-800" >
+        <div class="flex flex-col justify-center items-center w-full space-y-6 text-xl mt-16 mb-16 ">
+            <h1 class="mb-8 md:text-7xl font-title text-white">Guia 1</h1>
+            <!-- Botón 1 -->
+            <a href="../pricing-card/pricing.html" 
+               class="p-4 px-8 rounded-full shadow-lg bg-cyan-700 bg-opacity-100 text-white duration-200 hover:bg-white hover:text-cyan-700">
+               Ejercicio 1: Tarjetas de precios
+            </a>
+            <!-- Botón 2 -->
+            <a href="../producto/producto.html" 
+            class="p-4 px-8 rounded-full shadow-lg bg-cyan-700 bg-opacity-100 text-white duration-200 hover:bg-white hover:text-cyan-700">
+            Ejercicio 2: Producto
+            </a>
+            <!-- Botón 3 -->
+            <a href="../galeria/galeria.html" 
+            class="p-4 px-8 rounded-full shadow-lg bg-cyan-700 bg-opacity-100 text-white duration-200 hover:bg-white hover:text-cyan-700">
+            Ejercicio 3: Galería de imágenes
+            </a>
+            <!-- Botón 4 -->
+            <a href="../login/login.html" 
+            class="p-4 px-8 rounded-full shadow-lg bg-cyan-700 bg-opacity-100 text-white duration-200 hover:bg-white hover:text-cyan-700">
+            Ejercicio 4: Formulario de inicio de sesión
+            </a>
+            <!-- Botón 5 -->
+            <a href="../clipboard/index.html" 
+            class="p-4 px-8 rounded-full shadow-lg bg-cyan-700 bg-opacity-100 text-white duration-200 hover:bg-white hover:text-cyan-700">
+            Ejercicio 5: Clipboard Landing Page
+            </a>
+            <!-- Botón 6 -->
+            <a href="../gossip-girl/gg.html" 
+            class="p-4 px-8 rounded-full shadow-lg bg-cyan-700 bg-opacity-100 text-white duration-200 hover:bg-white hover:text-cyan-700">
+            Ejercicio complementario: Gossip Girl
+            </a>
+        </div>
+    </section>        
+</body>
+</html>
