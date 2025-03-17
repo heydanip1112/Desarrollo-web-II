@@ -9,9 +9,9 @@ export default function SearchForm() {
         e.preventDefault()
 
         //TODO: Validar
-        if (Object.values(searchFilters).includes('')) {
-            console.log('Todos los campos son obligatorios')
-            return
+        if (Object.values(searchFilters).includes("")) {
+          addNotification("Todos los campos son obligatorios", "error");
+          return;
         }
 
         // consultar las recetas
@@ -32,6 +32,7 @@ export default function SearchForm() {
 
     const fetchCategories=useAppStore((state)=>state.fetchCategories)
     const categories=useAppStore((state)=>state.categories)
+    const addNotification = useAppStore((state) => state.addNotification);
 
     useEffect(()=>{
         fetchCategories()

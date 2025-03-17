@@ -14,11 +14,13 @@ export const createFavoritesSlice = (set, get) => ({
             set((state) => ({
                 favorites: state.favorites.filter(favorite => favorite.idDrink != recipe.idDrink)
             }));
+            get().addNotification(`${recipe.strDrink} eliminado de favoritos`, "error");
         } else {
             // Si no está en favoritos, la agregamos
             set((state) => ({
                 favorites: [...state.favorites, recipe]
             }));
+            get().addNotification(`${recipe.strDrink} agregado a favoritos`, "success");
         }
 
         // Guardamos la lista actualizada de favoritos en localStorage

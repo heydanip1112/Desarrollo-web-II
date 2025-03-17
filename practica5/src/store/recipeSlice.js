@@ -1,6 +1,6 @@
 import { getCategories, getRecipeById, getRecipes } from "../services/RecipeService";
 
-export const createRecipesSlice = (set) => ({
+export const createRecipeSlice = (set) => ({
     categories: [],
     drinks:[],
     selectedRecipe: {},

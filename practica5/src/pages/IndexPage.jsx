@@ -1,3 +1,4 @@
+import React from "react"
 import DrinkCard from "../components/DrinkCard"
 import { useAppStore } from "../store/useAppStore"
 
